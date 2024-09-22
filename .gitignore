@@ -1,0 +1,53 @@
+# 忽略编译产生的对象文件和可执行文件
+*.o
+*.obj
+*.exe
+
+# 忽略动态链接库和静态库文件
+*.dll
+*.lib
+*.a
+*.so*
+
+# 忽略调试信息
+*.pdb
+
+# 忽略临时文件
+*.tmp
+*.swp
+*.swo
+*.swn
+*.bak
+
+
+# 忽略系统和编辑器产生的备份文件
+# Windows
+Thumbs.db
+*.log
+*.tmp
+
+# 忽略MinGW相关的文件夹
+/mingw*
+/mingw32-make
+
+# 忽略Makefile生成的目标文件
+*.d
+.depend
+
+# 忽略用户配置文件
+.env
+.env*
+.env.example
+
+# 忽略日志文件
+logs/
+*.log
+
+# 忽略构建目录
+build/
+dist/
+
+# 忽略下载的依赖库
+vendor/
+node_modules/
+bower_components/

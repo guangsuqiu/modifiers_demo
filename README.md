@@ -1,0 +1,5 @@
+# windows下内存修改demo
+需要使用mingw来编译
+使用mingw32-make.exe构造demo
+
+通过windows提供的API修改其他进程的内存信息
